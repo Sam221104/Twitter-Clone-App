@@ -1350,7 +1350,10 @@ button{
     text-decoration: underline;
 
 }
-@media screen and (min-width :1920px) {
+div .icons{
+    padding-right: 10px;
+}
+@media screen and (min-width :2160px) {
     
     .sidebar{
         margin-left: 100px;
@@ -1799,15 +1802,15 @@ button{
     }
     
 }
-@media  screen and (max-width:420px) {
+@media  screen and (max-width:425px) {
     
     .home{
-        margin-left: 25px;
-        
+        margin-left: 30px;
+
     }
+    
     body{
         overflow-x: hidden;
-        
     }
 }
 @media screen and (max-width:387px) {
@@ -1826,7 +1829,45 @@ button{
         
     }
 }
+@media screen and (max-width:320px) {
+    div.home{
+        margin-left: -3px;
+        border: none;
+    }
+    .home-title{
+        margin-left: 10px;
+    }
+    body{
+        overflow-x: hidden;
+        border: none;
+    }
+    .content,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6,
+.content7,
+.content8,
+.content9,
+.content10,
+.content11,
+.content12,
+.content13,
+.content14,
+.content15,
+.content16,
+.content17,
+.content18,
+.content19,
+.content20{
+border: none;
+border-bottom: 1px solid rgb(47 51 54);
+
+}
+}
 @media screen and (max-width:912px){
+    
     .content-tooltip1,
     .content-tooltip2,
     .content-tooltip3,
